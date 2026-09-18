@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"Y  ",
+		"Y  ",
+		"S  "
+	],
+	"key": {
+		"S": "minecraft:stick",
+		"Y": "minecraft:yellow_dye"
+	},
+	"result": {
+		"count": 12,
+		"id": "jsblock:lrt_inter_car_barrier_left"
+	}
+}

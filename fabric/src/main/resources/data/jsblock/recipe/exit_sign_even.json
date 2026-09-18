@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"jsblock:exit_sign_odd"
+	],
+	"result": {
+		"id": "jsblock:exit_sign_even"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"IR ",
+		"IE ",
+		"IG "
+	],
+	"key": {
+		"I": "minecraft:iron_ingot",
+		"E": "jsblock:tcl_emg_stop_button",
+		"R": "minecraft:redstone",
+		"G": "minecraft:green_dye"
+	},
+	"result": {
+		"count": 4,
+		"id": "jsblock:sil_emg_stop_button"
+	}
+}

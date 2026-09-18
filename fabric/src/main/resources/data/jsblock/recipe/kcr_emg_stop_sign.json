@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"III",
+		"BYB",
+		"   "
+	],
+	"key": {
+		"I": "minecraft:iron_ingot",
+		"Y": "minecraft:yellow_dye",
+		"B": "minecraft:blue_dye"
+	},
+	"result": {
+		"count": 6,
+		"id": "jsblock:kcr_emg_stop_sign"
+	}
+}

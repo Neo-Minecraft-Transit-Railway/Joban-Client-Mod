@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"II ",
+		"IEI",
+		"IR "
+	],
+	"key": {
+		"R": "minecraft:redstone",
+		"E": "jsblock:mtr_enquiry_machine",
+		"I": "minecraft:iron_ingot"
+	},
+	"result": {
+		"count": 4,
+		"id": "jsblock:rv_enquiry_machine"
+	}
+}

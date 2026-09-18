@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"YY ",
+		"PP ",
+		"II "
+	],
+	"key": {
+		"I": "minecraft:iron_ingot",
+		"P": "minecraft:purple_dye",
+		"Y": "minecraft:yellow_dye"
+	},
+	"result": {
+		"count": 4,
+		"id": "jsblock:helpline_standing_eal"
+	}
+}

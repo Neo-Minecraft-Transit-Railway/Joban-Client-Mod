@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"BRB",
+		"BDB",
+		"   "
+	],
+	"key": {
+		"B": "minecraft:black_concrete",
+		"D": "minecraft:lapis_lazuli",
+		"R": "minecraft:redstone"
+	},
+	"result": {
+		"count": 4,
+		"id": "jsblock:butterfly_light"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:smooth_stone",
+		"minecraft:redstone",
+		"minecraft:redstone"
+	],
+	"result": {
+		"count": 1,
+		"id": "jsblock:sound_looper"
+	}
+}

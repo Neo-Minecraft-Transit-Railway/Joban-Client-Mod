@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"RI ",
+		"LI ",
+		"EI "
+	],
+	"key": {
+		"R": "minecraft:redstone",
+		"L": "minecraft:redstone_lamp",
+		"E": "minecraft:emerald",
+		"I": "minecraft:iron_ingot"
+	},
+	"result": {
+		"count": 1,
+		"id": "jsblock:fare_saver"
+	}
+}

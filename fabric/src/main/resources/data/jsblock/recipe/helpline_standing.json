@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"II ",
+		"IH ",
+		"II "
+	],
+	"key": {
+		"I": "minecraft:iron_ingot",
+		"H": "jsblock:helpline_standing_eal"
+	},
+	"result": {
+		"count": 4,
+		"id": "jsblock:helpline_standing"
+	}
+}

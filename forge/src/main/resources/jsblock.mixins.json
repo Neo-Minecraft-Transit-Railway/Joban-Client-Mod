@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.lx862.jcm.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "modded.mtr.MixinTicketSystem"
+  ],
+  "client": [
+    "modded.mtr.VehicleResourceMixin",
+    "modded.mtr.RenderEyeCandyMixin",
+    "modded.mtr.RenderVehiclesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "jsblock.refmap.json"
+}

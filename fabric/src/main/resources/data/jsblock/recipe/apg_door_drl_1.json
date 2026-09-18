@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"#c:redstone_blocks",
+		"minecraft:iron_ingot",
+		"minecraft:iron_ingot",
+		"minecraft:iron_ingot",
+		"minecraft:iron_ingot",
+		"minecraft:iron_ingot",
+		"#c:glowstone_dusts",
+		"minecraft:glass_pane"
+	],
+	"result": {
+		"count": 8,
+		"id": "jsblock:apg_door_drl"
+	}
+}

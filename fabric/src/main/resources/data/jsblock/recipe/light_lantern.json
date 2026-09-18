@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"C  ",
+		"CC ",
+		"CGC"
+	],
+	"key": {
+		"C": "#c:concretes",
+		"G": "minecraft:glowstone_dust"
+	},
+	"result": {
+		"count": 4,
+		"id": "jsblock:light_lantern"
+	}
+}

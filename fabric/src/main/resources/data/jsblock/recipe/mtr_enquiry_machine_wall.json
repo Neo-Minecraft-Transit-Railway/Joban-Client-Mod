@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"   ",
+		"III",
+		"IRI"
+	],
+	"key": {
+		"R": "minecraft:redstone",
+		"I": "minecraft:iron_ingot"
+	},
+	"result": {
+		"count": 4,
+		"id": "jsblock:mtr_enquiry_machine_wall"
+	}
+}

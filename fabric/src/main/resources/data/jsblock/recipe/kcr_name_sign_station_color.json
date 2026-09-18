@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"III",
+		"GDG",
+		"   "
+	],
+	"key": {
+		"I": "minecraft:iron_ingot",
+		"D": "#c:dyes",
+		"G": "minecraft:glowstone_dust"
+	},
+	"result": {
+		"count": 3,
+		"id": "jsblock:kcr_name_sign_station_color"
+	}
+}

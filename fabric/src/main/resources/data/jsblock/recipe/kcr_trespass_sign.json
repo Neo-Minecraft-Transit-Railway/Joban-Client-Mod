@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"III",
+		"IRI",
+		"   "
+	],
+	"key": {
+		"R": "minecraft:red_dye",
+		"I": "minecraft:iron_ingot"
+	},
+	"result": {
+		"count": 6,
+		"id": "jsblock:kcr_trespass_sign"
+	}
+}

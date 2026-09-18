@@ -1,0 +1,49 @@
+plugins {
+    id "net.minecraftforge.gradle" version "+"
+    id "org.spongepowered.mixin" version "+"
+}
+
+minecraft {
+    mappings channel: "official", version: rootProject.minecraft_version
+    runs {
+        configureEach {
+            property "forge.logging.markers", "REGISTRIES"
+            property "forge.logging.console.level", "debug"
+        }
+        client {}
+        server { args "--nogui" }
+    }
+}
+
+sourceSets.main.resources { srcDir "src/generated/resources" }
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${rootProject.minecraft_version}-${project.properties["forge_version_$rootProject.minecraft_version"]}"
+    implementation fg.deobf("org.mtr:MTR-forge:${rootProject.mtr_version}+${rootProject.minecraft_version}-server")
+    annotationProcessor "org.spongepowered:mixin:+:processor"
+    annotationProcessor 'systems.manifold:manifold-preprocessor:+'
+}
+
+mixin {
+    add sourceSets.main, "jsblock.refmap.json"
+    config "jsblock.mixins.json"
+    debug.verbose = true
+    debug.export = true
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(java_version))
+    }
+    withSourcesJar()
+}
+
+artifacts {
+    archives jar
+}
+
+reobf {
+    shadowJar {}
+}
+
+assemble.dependsOn(shadowJar)

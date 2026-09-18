@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"CC ",
+		"RR ",
+		"   "
+	],
+	"key": {
+		"R": "minecraft:redstone",
+		"C": "#c:concretes"
+	},
+	"result": {
+		"count": 8,
+		"id": "jsblock:operator_button"
+	}
+}

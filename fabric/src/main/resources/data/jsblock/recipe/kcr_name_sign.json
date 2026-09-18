@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"III",
+		"GLG",
+		"   "
+	],
+	"key": {
+		"I": "minecraft:iron_ingot",
+		"L": "minecraft:lapis_lazuli",
+		"G": "minecraft:glowstone_dust"
+	},
+	"result": {
+		"count": 3,
+		"id": "jsblock:kcr_name_sign"
+	}
+}

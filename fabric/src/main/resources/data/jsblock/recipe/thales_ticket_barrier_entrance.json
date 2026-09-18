@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"II ",
+		"IRI",
+		"IRI"
+	],
+	"key": {
+		"I": "minecraft:iron_ingot",
+		"R": "minecraft:redstone"
+	},
+	"result": {
+		"count": 8,
+		"id": "jsblock:thales_ticket_barrier_entrance"
+	}
+}

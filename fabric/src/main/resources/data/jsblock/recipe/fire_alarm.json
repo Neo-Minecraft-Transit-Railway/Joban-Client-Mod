@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"IRI",
+		"IPI",
+		"   "
+	],
+	"key": {
+		"P": "minecraft:paper",
+		"R": "minecraft:redstone",
+		"I": "minecraft:iron_ingot"
+	},
+	"result": {
+		"count": 2,
+		"id": "jsblock:fire_alarm"
+	}
+}
